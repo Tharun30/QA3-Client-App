@@ -69,10 +69,10 @@ const NavBar = (props) => {
       hideFooter: currentValue?.hideFooter,
       ui_locales: currentValue?.ui_locales,
       deviceId: "example_deviceId",
-      action: currentValue?.action,
       aai: {
         ea: currentValue?.ea || "",
         affcc: currentValue?.affid || AffId() || 0,
+        action: currentValue?.action,
         cc: {
           Login: {
             hideLoginCTA: currentValue?.hideLoginCTAfromOTP,
